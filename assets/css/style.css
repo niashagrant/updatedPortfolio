@@ -7,6 +7,7 @@ body {
   font-weight: bold;
   background-color: oldlace;
   color: rgb(38, 38, 38);
+  font-size: 15px;
 }
 
 .nav-link,
@@ -14,13 +15,16 @@ body {
   color: rgb(38, 38, 38);
 }
 
-.nav-link:hover,
-.navbar-brand:hover {
+.nav-link:hover {
   color: rgb(255, 76, 74);
 }
 
+.navbar-brand:hover {
+  color: rgb(38, 38, 38);
+}
 .navbar-brand {
   margin-left: 5%;
+  font-size: 24px;
 }
 
 #navOptions {
@@ -36,5 +40,5 @@ body {
 }
 
 li {
-  margin-left: 5%;
+  padding-left: 5%;
 }
