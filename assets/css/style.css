@@ -1,0 +1,40 @@
+html {
+  background-color: red;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: oldlace;
+  color: rgb(38, 38, 38);
+}
+
+.nav-link,
+.navbar-brand {
+  color: rgb(38, 38, 38);
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(255, 76, 74);
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+#navOptions {
+  margin-right: 5%;
+}
+
+.nav-item {
+  margin-right: 5%;
+}
+
+.collapse {
+  margin-right: 5%;
+}
+
+li {
+  margin-left: 5%;
+}
