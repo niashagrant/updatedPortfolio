@@ -15,7 +15,8 @@ body {
   color: rgb(38, 38, 38);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.contact:hover {
   color: rgb(255, 76, 74);
 }
 
@@ -65,5 +66,18 @@ li {
 #aboutMe {
   margin-top: 10%;
   font-size: 14px;
+  font-weight: 500;
+}
+
+#contactMe {
+  color: rgb(38, 38, 38);
+  text-transform: uppercase;
   font-weight: bold;
+  font-size: 12px;
+}
+
+.contact {
+  margin-right: 3%;
+  color: rgb(38, 38, 38);
+  font-size: 15px;
 }
