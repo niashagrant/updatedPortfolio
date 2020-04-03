@@ -42,3 +42,28 @@ body {
 li {
   padding-left: 5%;
 }
+
+#myImg {
+  height: 400px;
+  width: 450px;
+  margin-left: -2%;
+}
+
+.jumbotron {
+  margin: 5% 10%;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(253, 245, 230);
+  color: rgb(38, 38, 38);
+}
+
+#title {
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+#aboutMe {
+  margin-top: 10%;
+  font-size: 14px;
+  font-weight: bold;
+}
