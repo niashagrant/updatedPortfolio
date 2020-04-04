@@ -15,9 +15,10 @@ body {
   color: rgb(38, 38, 38);
 }
 
-.nav-link:hover,
+.portfolioLink:hover,
 .contact:hover {
   color: rgb(255, 76, 74);
+  text-decoration: none;
 }
 
 .navbar-brand:hover {
@@ -72,11 +73,18 @@ body {
   font-size: 12px;
 }
 
-.contact {
+.contact,
+.portfolioLink {
   margin-right: 3%;
   color: rgb(38, 38, 38);
   font-size: 15px;
 }
+
+.portfolioLink {
+  font-size: 18px;
+  background-color: rgba(255, 166, 0, 0);
+}
+
 @media (max-width: 993px) {
   .navbar-light {
     text-transform: uppercase;
@@ -98,4 +106,20 @@ body {
 
 .card {
   margin-bottom: 10%;
+  background-color: rgba(255, 166, 0, 0);
+  border: transparent;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+.githubLink {
+  font-size: 12px;
+  color: rgb(255, 76, 74);
+}
+
+.githubLink:hover {
+  text-decoration: none;
+  color: rgb(255, 76, 74);
 }
