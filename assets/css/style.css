@@ -15,6 +15,7 @@ body {
   color: rgb(38, 38, 38);
 }
 
+.nav-link:hover,
 .contact:hover {
   color: rgb(255, 76, 74);
 }
@@ -32,15 +33,11 @@ body {
 }
 
 .nav-item {
-  margin-right: 5%;
+  margin-right: 7%;
 }
 
 .collapse {
   margin-right: 5%;
-}
-
-li {
-  padding-left: 5%;
 }
 
 #myImg {
@@ -79,4 +76,26 @@ li {
   margin-right: 3%;
   color: rgb(38, 38, 38);
   font-size: 15px;
+}
+@media (max-width: 993px) {
+  .navbar-light {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: oldlace;
+    color: rgb(38, 38, 38);
+    font-size: 15px;
+  }
+}
+
+.form-control {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contactSubmit {
+  background-color: rgb(38, 38, 38);
+}
+
+.card {
+  margin-bottom: 10%;
 }
